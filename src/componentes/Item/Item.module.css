@@ -1,0 +1,68 @@
+.card {
+    width: fit-content;
+    display: inline-block;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.25);
+}
+
+.image {
+    width: fit-content;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: rgb(234, 26, 26);
+    margin-top: 8px;
+}
+
+.name {
+    font-size: 22px;    
+    font-weight: bold;
+    color: rgb(30, 28, 28);
+    margin-top: 8px;
+}
+
+.stock {
+    font-weight: normal;
+    color: rgb(15, 15, 15);
+    margin-top: 8px;
+}
+
+.cantidad {
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    background: rgb(248, 159, 44);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+    border-radius: 12px;
+}
+
+.button:hover {
+    transform: scale(1.25);
+}
+
+.button:active {
+    background: rgb(88, 245, 53);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+    border-radius: 12px;
+}
